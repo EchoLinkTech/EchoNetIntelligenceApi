@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "parity_node1",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : true,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "18.222.149.165",
+      "RPC_PORT"        : "8540",
+      "LISTENING_PORT"  : "30300",
+      "INSTANCE_NAME"   : "parity_node1",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "ws://13.58.125.248:3000",
+      "WS_SECRET"       : "ChangeWsSecret",
+      "VERBOSITY"       : "2"
+    }
+  }
+]

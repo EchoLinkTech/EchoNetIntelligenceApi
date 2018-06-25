@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "EchoNetIntelligenceApi",
+    "name"              : "parity_node2",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -11,10 +11,10 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "18.191.166.252",
+      "RPC_HOST"        : "13.58.175.224",
       "RPC_PORT"        : "8540",
       "LISTENING_PORT"  : "30300",
-      "INSTANCE_NAME"   : "echolink",
+      "INSTANCE_NAME"   : "parity_node2",
       "CONTACT_DETAILS" : "",
       "WS_SERVER"       : "ws://13.58.125.248:3000",
       "WS_SECRET"       : "ChangeWsSecret",
